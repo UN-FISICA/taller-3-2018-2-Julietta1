@@ -607,7 +607,7 @@ if __name__ == "__main__":
     sumatoria=0
     k=MyFloat((["+",0],[0]))
     r=-1
-    for con in range(100000):
+    for con in range(10000):
         signo=r*(-1)
         r=signo
         indice=MyFloat(k+con)
