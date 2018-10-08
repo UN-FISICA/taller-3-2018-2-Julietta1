@@ -429,7 +429,7 @@ class MyFloat:
         else:
             return(multiplicacion(self.a,other.a))
 
-    def __truediv__(self,other):
+    def __truediv__(self,other):  #python 3, al usar __div__ no funcionaba
         if type(other)==int or type(other)==float:
             c=[[],[]]
             if other<0:
